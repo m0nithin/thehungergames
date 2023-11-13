@@ -1,4 +1,5 @@
 @import"https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap";
+
 .mat-badge-content {
     font-weight: 600;
     font-size: 12px;
@@ -11,6 +12,46 @@
 
 .mat-badge-large .mat-badge-content {
     font-size: 24px
+}
+
+.about[_ngcontent-oob-c93] .header[_ngcontent-oob-c93] {
+    font-family: bankgothic_md_btmedium, serif;
+    font-size: 28px;
+    letter-spacing: 2px;
+    width: 100%;
+    color: #edc752;
+}
+
+.about[_ngcontent-oob-c93] {
+    position: relative;
+    margin-top: 130px;
+    width: 100%;
+    max-width: 1280px;
+    text-align: left;
+    opacity: 1;
+}
+
+.about[_ngcontent-oob-c93] .header[_ngcontent-oob-c93] span[_ngcontent-oob-c93] {
+    position: relative;
+    display: inline-block;
+}
+
+.about[_ngcontent-oob-c93] .subHeader[_ngcontent-oob-c93] {
+    position: relative;
+    width: 100%;
+    margin-top: 60px;
+    font-size: 25px;
+    line-height: 40px;
+    font-family: Gotham;
+}
+
+.about[_ngcontent-oob-c93] .header[_ngcontent-oob-c93] .line[_ngcontent-oob-c93] {
+    position: absolute !important;
+    left: 0%;
+    width: 75px;
+    height: 3px;
+    bottom: -7px;
+    background: #edc752;
 }
 
 .mat-h1,
@@ -334,13 +375,16 @@
 }
 
 @media print {
+
     .mat-form-field-appearance-legacy.mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label,
     .mat-form-field-appearance-legacy.mat-form-field-can-float .mat-input-server:focus+.mat-form-field-label-wrapper .mat-form-field-label {
         transform: translateY(-1.28122em) scale(.75)
     }
+
     .mat-form-field-appearance-legacy.mat-form-field-can-float .mat-form-field-autofill-control:-webkit-autofill+.mat-form-field-label-wrapper .mat-form-field-label {
         transform: translateY(-1.28121em) scale(.75)
     }
+
     .mat-form-field-appearance-legacy.mat-form-field-can-float .mat-input-server[label]:not(:label-shown)+.mat-form-field-label-wrapper .mat-form-field-label {
         transform: translateY(-1.2812em) scale(.75)
     }
@@ -3072,6 +3116,7 @@ td.mat-footer-cell {
     .mat-toolbar-multiple-rows {
         min-height: 56px
     }
+
     .mat-toolbar-row,
     .mat-toolbar-single-row {
         height: 56px
