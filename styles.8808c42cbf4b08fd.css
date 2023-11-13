@@ -21,10 +21,10 @@
     align-items: center;
     justify-content: space-around;
     margin: 0;
-    padding: 20px;
+    padding: 0px 20px 20px 20px;
     gap: 1rem;
 
-    background-color: #000000af;
+    background-color: #111111;
 }
 
 .about[_ngcontent-oob-c93] .header[_ngcontent-oob-c93] {
